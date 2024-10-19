@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Icon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spaceship.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Auto-Cannon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet_Auto-Cannon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet_Zapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pickup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pickup_Shield.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pickup_Zapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Background.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Spaceship - Full Health.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Spaceship - Damaged.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Spaceship - Slight damage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Spaceship - Very damaged.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Spaceship - Base Engine.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Spaceship  - Burst Engine.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Spaceship - Base Engine - Powering.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Spaceship - Big Pulse Engine - Powering.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Spaceship - Burst Engine - Powering.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Spaceship - Supercharged Engine - Powering.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Spaceship - Supercharged Engine.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Spaceship - Big Pulse Engine.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Weapon - Auto - Cannon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Bullet - Auto - Cannon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Bullet - Zapper.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Weapon - Zapper.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Shield.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Asteroid.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Asteroid - Flame.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Asteroid - Explode.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Pickup - Shield.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Pickup - Zapper.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Background.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Icon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spaceship.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Auto-Cannon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet_Auto-Cannon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet_Zapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pickup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pickup_Shield.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pickup_Zapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
